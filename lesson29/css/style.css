@@ -1,0 +1,33 @@
+body {
+  font-size: 40px;
+}
+
+.block, .inline {
+  background-color: #eee;
+}
+
+/* ===================================================================== */
+
+.block {
+  max-width: 800px;
+  min-height: 200px;
+}
+
+.inline {
+  max-width: 800px;
+  min-height: 200px;
+}
+
+.img {
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.black-block {
+  background-color: black;
+  color: #fff;
+  min-width: 200px;
+  max-width: 1200px;
+  min-height: 10px;
+  max-height: 30px;
+}

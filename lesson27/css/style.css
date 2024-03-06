@@ -1,0 +1,31 @@
+.block {
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+}
+
+#block {
+  background-color: greenyellow;
+}
+
+.block-1 {
+  background-color: red;
+}
+
+/* div {
+  background-color: deepskyblue !important;
+} */
+
+div {
+  background-color: deepskyblue;
+}
+
+.block-2 {
+  width: 200px;
+  height: 200px;
+  background-color: #808080;
+}
+
+div.block-2 {
+  background-color: darkgreen;
+}
