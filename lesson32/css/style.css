@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 40px;
+}
+
+.block, .inline {
+  background-color: #eee;
+}
+
+/* ===================================================================== */
+
+.block {
+  margin-bottom: 25px;
+}
+
+.block-1 {
+  border-width: 30px 140px 20px 10px;
+  border-style: groove;
+  border-color: rgb(53, 100, 255);
+}
+
+.block-2 {
+  border-top-width: 30px;
+  border-right-width: 140px;
+  border-bottom-width: 20px;
+  border-left-width: 10px;
+  border-top-style: double;
+  border-right-style: dotted;
+  border-bottom-style: dashed;
+  border-left-style: dotted;
+  border-top-color: rgb(53, 255, 80);
+  border-right-color: rgb(130, 53, 255);
+  border-bottom-color: rgb(255, 225, 53);
+  border-left-color: rgb(255, 53, 53);
+}
+
+.inline {
+  font-size: 24px;
+}
+
+.img {
+  border: 15px groove #3564ff;
+  outline: 15px groove #3564ff;
+  margin-left: 30px;
+}

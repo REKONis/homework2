@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 40px;
+}
+
+.block, .inline {
+  background-color: #eee;
+}
+
+/* ===================================================================== */
+
+.block {
+  max-width: 800px;
+  padding: 10px;
+  box-shadow: 2px 5px 15px 5px rgba(0, 0, 0, 0.5);
+  margin: 30px 20px 0 20px;
+}
+
+.inline {
+  /* text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5); */
+}
+
+.img {
+  margin-left: 40px;
+  box-shadow: 6px 9px 15px 5px #000f38, -15px -4px 26px 0px #380000;
+}
