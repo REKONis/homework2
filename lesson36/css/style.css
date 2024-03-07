@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.block-container {
+  background-color: #e9e8f3;
+  border: 1px solid #000;
+  max-height: 750px;
+  border-top-left-radius: 38px;
+  border-bottom-left-radius: 38px;
+  overflow: auto;
+  padding: 13px 6px;
+}
+
+.info-card {
+  background-color: #bea886;
+  max-width: 375px;
+  min-height: 292px;
+  border-radius: 38px;
+  padding: 54px 38px 50px;
+  display: inline-block;
+  margin: 0 15px 25px 0;
+  box-shadow: inset 0px 0px 8px 5px #80787d;
+}
+
+.heading {
+  font-size: 38px;
+  margin: 0 0 31px 0;
+}
+
+.text {
+  font-size: 25px;
+  line-height: 112%;
+  margin: 0;
+}
