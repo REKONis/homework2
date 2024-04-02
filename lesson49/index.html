@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Инпуты</title>
+</head>
+
+<body>
+  <form name="contacts" autocomplete="off">
+    <fieldset>
+      <legend>Контактная форма</legend>
+      <label>
+        Имя
+        <br>
+        <input type="text" required placeholder="Ваше имя">
+      </label>
+      <br>
+      <br>
+      <label>
+        E-Mail
+        <br>
+        <input type="email" required placeholder="Адрес электронной почты">
+      </label>
+      <br>
+      <br>
+      <label>
+        Телефон
+        <br>
+        <input type="tel" placeholder="Номер телефона">
+      </label>
+      <br>
+      <br>
+      <label>
+        Пароль
+        <br>
+        <input type="password" placeholder="Ваш пароль">
+      </label>
+      <br>
+      <br>
+      <label>
+        Желаемое число
+        <br>
+        <input type="number" min="0" max="255" step="5" placeholder="0 − 255">
+      </label>
+      <br>
+      <br>
+      <fieldset>
+        <legend>Чекбоксы</legend>
+        <label>
+          <input type="checkbox">
+          Чекбоксиндр
+        </label>
+        <br>
+        <label>
+          <input type="checkbox">
+          Чекбоксино
+        </label>
+        <br>
+        <label>
+          <input type="checkbox">
+          Чекбоксио
+        </label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Радио</legend>
+        <label>
+          <input type="radio" name="parrot">
+          Жако
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="parrot">
+          Волнистый
+        </label>
+      </fieldset>
+      <br>
+      <label>
+        Поиск
+        <br>
+        <input type="search" placeholder="Сейчас искать нечего">
+      </label>
+      <br>
+      <br>
+      <label>
+        Дата
+        <br>
+        <input type="date">
+      </label>
+      <br>
+      <br>
+      <label>
+        Файл
+        <br>
+        <input type="file">
+      </label>
+      <br>
+      <br>
+      <label>
+        Выбор
+        <br>
+        <select name="formSelect">
+          <option value="">-- выбрать --</option>
+          <option value="var1">Вариант 1</option>
+          <option value="var2">Вариант 2</option>
+          <option value="var3">Вариант 3</option>
+          <option value="var4">Вариант 4</option>
+        </select>
+      </label>
+      <br>
+      <br>
+      <label>
+        Введите комментарий
+        <br>
+        <textarea name="comment" id="" cols="50" rows="4" placeholder="Оставьте здесь свой комментарий"></textarea>
+      </label>
+      <br>
+      <br>
+      <button type="submit">Отправить</button>
+      <button type="reset">Очистить</button>
+    </form>
+    </fieldset>
+</body>
+
+</html>

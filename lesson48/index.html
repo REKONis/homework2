@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы</title>
+</head>
+
+<body>
+  <form name="contacts" autocomplete="off">
+    <fieldset>
+      <legend>Контактная форма</legend>
+      <label>
+        Имя
+        <br>
+        <input type="text">
+      </label>
+      <br>
+      <br>
+      <label>
+        Выбор
+        <br>
+        <select name="formSelect">
+          <option value="">-- выбрать --</option>
+          <option value="var1">Вариант 1</option>
+          <option value="var2">Вариант 2</option>
+          <option value="var3">Вариант 3</option>
+          <option value="var4">Вариант 4</option>
+        </select>
+      </label>
+      <br>
+      <br>
+      <label>
+        Ваш комментарий
+        <br>
+        <textarea name="comment" id="" cols="50" rows="4"></textarea>
+      </label>
+      <br>
+      <br>
+      <button type="submit">Отправить</button>
+      <button type="reset">Очистить</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>
