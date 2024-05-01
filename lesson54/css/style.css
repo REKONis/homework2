@@ -1,0 +1,28 @@
+.inner {
+  background-color: #262629;
+}
+
+p {
+  color: #fff;
+  font-size: 3em;
+}
+
+.square {
+  min-height: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: fixed;
+  left: 50%;
+  right: 50px;
+  bottom: 100px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ee3a3d;
+  border-radius: 50%;
+  position: absolute;
+  top: -50%;
+  left: 100px;
+}

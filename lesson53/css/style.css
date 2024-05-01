@@ -1,0 +1,57 @@
+.text__paragraph {
+  font-size: 2.5em;
+  line-height: 125%;
+  margin-bottom: 15px;
+}
+
+.text__span--red {
+  color: red;
+}
+
+.text__span--green {
+  color: green;
+}
+
+.text__span--blue {
+  color: blue;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}
+
+.text__paragraph-1 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 600;
+}
+
+.text__paragraph-2 {
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+.text__paragraph-3 {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-style: italic;
+}
+
+.text__paragraph-4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+
+.text__paragraph-5 {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+}
+
+.text__paragraph-6 {
+  font-family: "Rubik Doodle Shadow", sans-serif;
+}
+
+.text__paragraph-7 {
+  font-family: "Rubik Scribble", sans-serif;
+}
+
+.text__paragraph-8 {
+  font-family: "Kablammo", sans-serif;
+}

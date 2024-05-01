@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito Medium"), local("Nunito-Medium"),
+    url("../fonts/Nunito-Medium.woff2") format("woff2"),
+    url("../fonts/Nunito-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Italic'), local('Merriweather-Italic'),
+    url('../fonts/Merriweather-Italic.woff2') format('woff2'),
+    url('../fonts/Merriweather-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa SemiBold'), local('Comfortaa-SemiBold'),
+    url('../fonts/Comfortaa-SemiBold.woff2') format('woff2'),
+    url('../fonts/Comfortaa-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Balsamiq Sans';
+  src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'),
+    url('../fonts/BalsamiqSans-Regular.woff2') format('woff2'),
+    url('../fonts/BalsamiqSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Balsamiq Sans';
+  src: local('Balsamiq Sans Italic'), local('BalsamiqSans-Italic'),
+    url('../fonts/BalsamiqSans-Italic.woff2') format('woff2'),
+    url('../fonts/BalsamiqSans-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik Scribble';
+  src: local('Rubik Scribble Regular'), local('RubikScribble-Regular'),
+    url('../fonts/RubikScribble-Regular.woff2') format('woff2'),
+    url('../fonts/RubikScribble-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik Doodle Shadow';
+  src: local('Rubik Doodle Shadow Regular'), local('RubikDoodleShadow-Regular'),
+    url('../fonts/RubikDoodleShadow-Regular.woff2') format('woff2'),
+    url('../fonts/RubikDoodleShadow-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kablammo';
+  src: local('Kablammo Regular'), local('Kablammo-Regular'),
+    url('../fonts/Kablammo-Regular.woff2') format('woff2'),
+    url('../fonts/Kablammo-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
